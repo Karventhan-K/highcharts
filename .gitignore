@@ -2,7 +2,6 @@
 /.project
 /.pydevproject
 /.settings
-/.vscode
 /.history
 /api-docs
 /out
@@ -71,3 +70,4 @@ tmp/
 /env.file
 
 *.bak
+config.bat
