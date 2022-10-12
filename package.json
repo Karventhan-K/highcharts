@@ -29,7 +29,7 @@
     "test": "npx gulp test-ts --force && npx gulp test --force --speak",
     "testall": "npx gulp test --browsers all --force --speak",
     "prebuild": "rimraf build/*.zip build/dist/ code/",
-    "build": "npx gulp dist",
+    "build": "node init && npx gulp dist",
     "jsdoc": "npx gulp jsdoc-watch --skip-websearch",
     "jsdoc-highstock": "npx gulp jsdoc-watch --products highstock --skip-websearch",
     "dts": "npx gulp dts && npx gulp dtslint",
